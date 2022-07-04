@@ -1,12 +1,14 @@
-0x0A. Python - Inheritance
+#0x0A. Python - Inheritance
+
 Python
 OOP
 Inheritance
- By Guillaume
- Weight: 1
+
+
  Ongoing project - started Jul 4, 2022, must end by Jul 5, 2022 - you're done with 150% of tasks.
  Checker will be released at Jul 4, 2022 12:00 PM
  An auto review will be launched at the deadline
+ 
 Resources
 Read or watch:
 
