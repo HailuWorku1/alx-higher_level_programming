@@ -17,4 +17,4 @@ class Rectangle:
 class Square(Rectangle):
     def __init__(self, width, height):
         # equivalent to `Rectangle.__init__(self, width, height)`
-        super().__init__(width, height)      
+        super().__init__(width, height)   
