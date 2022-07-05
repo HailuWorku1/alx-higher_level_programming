@@ -1,6 +1,8 @@
+#!/usr/bin/python3
+"""1-write_file.py"""
+
+
 def write_file(filename="", text=""):
-    """
-    Write a string to text file and returns the nb of characters
-    """
-    with open(filename, mode="w+", encoding="UTF-8") as file:
-        return file.write(text)
+    """writes a string to a text file(UTF8) and returns number of characters"""
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
