@@ -5,6 +5,7 @@ def read_file(filename=""):
     Args:
         filename (str): filename/filepath
     """
-    if type(filename) is str:
-        with open(filename, 'r', encoding="UTF-8") as fyle:
-            print(fyle.read(), end='')
+    if type(filename) is str:                   
+        with open(filename, encoding='UTF-8') as f:
+            for line in f:
+                print(line.strip())
