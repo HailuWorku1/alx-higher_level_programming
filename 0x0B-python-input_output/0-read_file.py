@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 
 def read_file(filename=""):
-    """Reads a file
-    Args:
-        filename (str): filename/filepath
-    """
-    if type(filename) is str:                   
-        with open(filename, encoding='UTF-8') as f:
-            for line in f:
-                print(line.strip())
+    with open('dog_breeds.txt', 'r') as reader:
+    # Read and print the entire file line by line
+        line = reader.readline()
+        while line != '':  # The EOF char is an empty string
+            print(line, end='')
+            line = reader.readline()
