@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-
 def read_file(filename=""):
-    with open(filename, "r", encoding="UTF-8") as f:
-        print(f.read(), end="")
+    """Reads a file
+    Args:
+        filename (str): filename/filepath
+    """
+    if type(filename) is str:
+        with open(filename, 'r') as fyle:
+            print(fyle.read(), end='')
